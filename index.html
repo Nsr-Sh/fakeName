@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -19,22 +23,49 @@
       <h5>Select Gender</h5>
       <div id="images">
         <div class="avator" id="male">
-          <img class="round" src="assets/images/man.png" alt="" />
+          <img class="round" src="assets/images/m.png" alt="" />
           <p>Male</p>
         </div>
         <div class="avator" id="female">
-          <img class="round" src="assets/images/woman.png" alt="" />
+          <img class="round" src="assets/images/w.png" alt="" />
           <p>Female</p>
         </div>
         <div class="avator" id="random">
-          <img class="round" src="assets/images/random.png" alt="" />
+          <img class="round" src="assets/images/r2.jpg" alt="" />
           <p>Random</p>
         </div>
       </div>
 
       <button class="btn">Genarate</button>
     </div>
-
+    <!-- <div id="modal"></div> -->
+    <div id="overlay"></div>
+    <div class="preview">
+      <i class="fa-solid fa-xmark"></i>
+      <div id="box-image"><img src="assets/images/m.png" alt="" /></div>
+      <div class="info">
+        <div class="row">
+          <span class="title">Name</span>
+          <p class="data">Rhea McLaughlin</p>
+          <hr />
+        </div>
+        <div class="row">
+          <span class="title">Age</span>
+          <p class="data">45</p>
+          <hr />
+        </div>
+        <div class="row">
+          <span class="title">Email</span>
+          <p class="data">myrtis47@asifboot.com</p>
+          <hr />
+        </div>
+        <div class="row">
+          <span class="title">Location</span>
+          <p class="data">Willmsborough</p>
+          <hr />
+        </div>
+      </div>
+    </div>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
